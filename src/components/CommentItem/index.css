@@ -1,0 +1,109 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.profile {
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+.commentsection {
+  display: flex;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.singlerow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.commentsection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.time {
+  color: #7e858e;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+span {
+  margin-left: 20px;
+}
+
+.img {
+  cursor: pointer;
+  outline: none;
+  width: 30px;
+}
+
+.likeContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.deleteimage {
+  width: 30px;
+}
+
+.deletebtn {
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+}
+
+.blue {
+  color: #0ea5e9;
+  background-color: transparent;
+}

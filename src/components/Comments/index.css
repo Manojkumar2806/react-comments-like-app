@@ -1,0 +1,91 @@
+.Contaiener {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.SubContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-color: #475569;
+}
+
+textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-color: #475569;
+}
+
+button {
+  color: white;
+  background-color: #0ea5e9;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #94a3b8;
+  margin: 20px 0;
+}
+
+.spanContaineer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.CommentsCount {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 5px;
+  width: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+.descripton {
+  font-weight: bold;
+  color: #475569;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+@media (width>=765px) {
+  .SubContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-around;
+  }
+  .inputContainer {
+    order: -5;
+  }
+}
